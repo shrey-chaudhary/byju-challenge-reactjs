@@ -12,3 +12,9 @@ ASSUMPTIONS
 
 1. While searching by Location and Skills, the user can separate the terms by comma (,) to search for multiple terms. 
     Example: the query 'Bangalore, Navi Mumbai' in location search input will search for the two locations Bangalore and Navi Mumbai
+
+HEROKU APP LINK:
+
+you can directly access the deployed app on heroku. Please find the link below:
+
+    https://byju-challenge-reactjs.herokuapp.com/
