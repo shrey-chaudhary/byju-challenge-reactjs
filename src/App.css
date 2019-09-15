@@ -1,0 +1,34 @@
+.App {}
+
+.grid-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 3fr;
+}
+
+.App-header {
+    background: linear-gradient(45deg, #ff0b0b, #c736bc);
+    padding: 10px;
+    text-align: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+.header-label {
+    width: fit-content;
+    display: inline-block;
+    float: left;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

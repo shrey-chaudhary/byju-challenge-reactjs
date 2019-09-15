@@ -1,0 +1,15 @@
+.checkbox-container {
+    display: inline-grid;
+    max-height: 27vh;
+    overflow-y: scroll;
+    margin: 2vh;
+    text-align: left;
+}
+
+.checkbox-container label {
+    padding: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 75%;
+}

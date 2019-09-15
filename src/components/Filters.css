@@ -1,0 +1,46 @@
+.filter-div {
+    background: white;
+    color: grey;
+    left: 50%;
+    top: 80%;
+    margin: 5% 4%;
+    height: fit-content;
+    box-shadow: 1px 1px 7px 1px grey;
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 1;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    text-align: center;
+}
+
+.filter-div ul {
+    list-style: none;
+    padding: 4px 1px;
+    overflow-y: scroll;
+    max-height: 23vh;
+    margin: 2vh 0vh;
+}
+
+.apply-filt {
+    background-color: #179fff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 2% 7.5%;
+    margin: 10px;
+    font-size: 17px;
+}
+
+.title-filter {
+    text-align: left;
+    background: linear-gradient(45deg, #ff0b0b, #c736bc);
+    padding: 7px;
+    color: white;
+    margin: 0px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.filter-container {
+    padding: 2%;
+}
